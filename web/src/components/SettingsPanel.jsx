@@ -75,8 +75,8 @@ export default function SettingsPanel({
               value={settings.model}
               onChange={(e) => onSettingsChange({ model: e.target.value })}
             >
-              <option value="gemini-2.0-flash">2.0 Flash ⚡</option>
-              <option value="gemini-2.0-flash-lite">2.0 Lite 🪶</option>
+              <option value="gemini-3.8-flash">3.8 Flash ⚡</option>
+              <option value="gemini-3.8-flash-lite">3.8 Lite 🪶</option>
               <option value="gemini-1.5-flash">1.5 Flash</option>
               <option value="gemini-1.5-pro">1.5 Pro 🎓</option>
             </select>

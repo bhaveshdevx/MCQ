@@ -14,7 +14,7 @@ const STORAGE_KEY_SETTINGS = 'snapsolve_settings';
 const DEFAULT_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || '';
 
 const defaultSettings = {
-  model: 'gemini-2.0-flash',
+  model: 'gemini-3.8-flash',
   temperature: 0.1,
   autoAnalyze: true,
   saveHistory: true,

@@ -50,7 +50,7 @@ export async function analyzeMCQFromImage(base64Image, apiKey, options = {}) {
     throw new Error('API key is required. Please enter your Gemini API key in settings.');
   }
 
-  const model = options.model || 'gemini-2.0-flash';
+  const model = options.model || 'gemini-3.8-flash';
   const temperature = options.temperature ?? 0.1;
 
   const requestBody = {
