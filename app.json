@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "MCQ Solver",
+    "slug": "mcq-solver",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0A12"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0A12",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "MCQ Solver needs camera access to scan and solve questions in real-time.",
+          "microphonePermission": "MCQ Solver uses the microphone for video if needed.",
+          "recordAudioAndroid": false
+        }
+      ]
+    ]
+  }
+}
